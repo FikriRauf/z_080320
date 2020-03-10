@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Mamba</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_team">Team</string>
+
+    <string name="team_title">TextView</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_userName">Username</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="forgot_message">Enter your email you register with, so that we can send a reset link</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_reset_link">Reset</string>
+
+    <string name="btn_sign_up">Register</string>
+    <string name="btn_sign_in">Log in</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="login_mamba_title">Mamba</string>
+    <string name="login_greeting_message">Welcome Back</string>
+
+    <string name="register_title">Sign Up</string>
+    <string name="register_greeting_message">Hello,</string>
+    <string name="register_message_02">Register</string>
+    <string name="register_message_01">Not a member yet?</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/taskNameEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="Task Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/taskDescEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="Task Description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/taskDateEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="Task Date"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/addtaskBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task" />
+
+</LinearLayout>
