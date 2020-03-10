@@ -155,7 +155,8 @@ public class DashboardFragment extends Fragment {
                                 Log.d("teamTask", "Key value is " + dataSnapshot2.getKey());
                                 if (dataSnapshot2.getValue().equals("Uncompleted")) {
                                     Log.d("teamTask","The value is " + dataSnapshot1.getValue());
-                                    TeamTaskHolder task = dataSnapshot1.getValue(TeamTaskHolder.class);
+//                                    TeamTaskHolder task = dataSnapshot1.(TeamTaskHolder.class);
+                                    TeamTaskHolder task = new TeamTaskHolder(dataSnapshot1);
                                     taskLists.add(task);
                                 }
                             }
